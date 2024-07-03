@@ -17,7 +17,7 @@ export default function Game() {
   const [answer, setAnswer] = useState<number | null>(null);
   const [userAnswer, setUserAnswer] = useState<string>("");
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(180);
+  const [timeLeft, setTimeLeft] = useState(120);
 
   useEffect(() => {
     if(gameKey) {
